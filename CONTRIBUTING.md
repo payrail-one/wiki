@@ -1,7 +1,7 @@
 # Contributing
 
 Payrail is currently unreleased development software. Before contributing,
-read the [developer documentation](docs/README.md), the relevant architecture
+read the [developer documentation](Home.md), the relevant architecture
 decision records and the repository-wide engineering rules.
 
 ## Workflow
@@ -10,7 +10,7 @@ decision records and the repository-wide engineering rules.
 2. Reuse existing domain types, validation, codecs and ports.
 3. Add tests for success and adversarial/failure behavior.
 4. Update documentation and ADRs in the same change.
-5. Run the complete gates in [Testing](docs/TESTING.md).
+5. Run the complete gates in [Testing](TESTING.md).
 
 Do not commit secrets, private infrastructure data, generated build output,
 local state or real customer/payment information. Use placeholders in examples.
